@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -16,18 +16,18 @@
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Sign Up #2</title>
+    <title>Formulario</title>
   </head>
   <body>
   
 
   <div class="d-lg-flex half">
-    <div class="bg order-1 order-md-2" style="background-image: url('https://www.feital.com.br/wp-content/themes/feital/assets/img/noticia-default.png');"></div>
+    <div class="bg order-1 order-md-2" style=></div>
     <div class="contents order-2 order-md-1">
 
       <div class="container">
         <div class="row align-items-center justify-content-center">
-          <div class="col-md-7 py-5">
+          <div class="col-md-12 ">
             <h3>Registro de equipamentos</h3>
             <p class="mb-4">Lorem ipsum dolor sit amet elit. Sapiente sit aut eos consectetur adipisicing.</p>
             <form action="#" method="post">
@@ -71,10 +71,10 @@
                         <label for="email">Tipo</label>
                         <select name="select" id="tipo_equip">
                           <option value="default" selected="selected">----</option>
-                          <option value="valor1">Desktop</option>
-                          <option value="valor2" >Only in one</option>
-                          <option value="valor3">thin client</option>
-                          <option value="valor3">Notebook</option>
+                          <option value="valor1">DESKTOP</option>
+                          <option value="valor2" >ONLY IN ONE</option>
+                          <option value="valor3">THIN CLIENT</option>
+                          <option value="valor3">NOTEBOOK</option>
                         </select>
                       </div>
                     </div>
@@ -89,9 +89,9 @@
                       <option value="valor1">WINDOWS 10 HOME</option>
                       <option value="valor2" >WINDOWS SERVER 2012 R1</option>
                       <option value="valor2" >WINDOWS 8.1 </option>
+                      <option value="valor2" >WINDOWS XP </option>
+                      <option value="valor2" >TINY CORE </option>
                      
-                      
-                      <option value="valor3">TINY CORE</option>
                     </select>
                   </div>    
                 </div>
@@ -105,12 +105,11 @@
                           <option value="default" selected="selected">----</option>
                           <option value="valor1">Sem marca</option>
                           <option value="valor2" >DELL </option>
-                         
                           <option value="valor3">LENOVO</option>
-                          
                           <option value="valor3">INIT </option>
                           <option value="valor3">COMPAQ </option>
                           <option value="valor3">HP </option>
+                          <option value="valor3">SAMSUNG </option>
                          
                         </select>
                       </div>
@@ -120,7 +119,17 @@
                   <div class="col-md-8">
                   <div class="form-group form-control-sm">
                     <label for="quantity">RAM</label>
-                    <input type="number" id="quantity" name="quantity" min="2" max="32">
+                    <select name="select" id="tipo_equip">
+                      <option value="default" selected="selected">----</option>
+                      <option value="valor1">256 mb</option>
+                      <option value="valor2" >2GB </option>
+                      <option value="valor3">4GB</option>
+                      <option value="valor3">6GB</option>
+                      <option value="valor3">8GB</option>
+                      <option value="valor3">10GB</option>
+                      <option value="valor3">12GB</option>
+                      <option value="valor3">16GB</option>
+                    </select>
                   </div>    
                 </div>
              
@@ -143,20 +152,48 @@
                     <label for="so">Modelo do equipamento</label>
                     <select name="so" id="so">
                       <option value="default" selected="selected">----</option>
-                      <option value="valor1">WINDOWS 10 HOME</option>
-                      <option value="valor2" >Windowns</option>
-                      <option value="valor3">tiny core</option>
+                      <option value="valor3">AMD 145</option>
+                      <option value="valor3">AMD SEMPRON</option>
+                      <option value="valor3">CELERON </option>
+                      <option value="valor1">DUAL CORE 3.00GHZ</option>
+                      <option value="valor3">I3</option>
+                      <option value="valor2" >I5 </option>
+                      <option value="valor3">I20</option>
+
+                      <option value="valor3">INTEL ATOM</option>
+
+                      <option value="valor3">PENTIUM</option>
+
+
+                      <option value="valor3">CORE 2 DUO</option>
+
                     </select>
                   </div>    
                 </div>
              
               </div>
-
+              
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group first">
+                    <label for="mac">Identificação</label>
+                    <input type="text" class="form-control" placeholder="ex RIP-TI-1" id="mac">
+                  </div>
+                </div>
+              </div>
               <div class="row">
                 <div class="col-md-12">
                   <div class="form-group first">
                     <label for="mac">MAC do dispositivo</label>
                     <input type="text" class="form-control" placeholder="MAC do dispositivo" id="mac">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group first">
+                    <label for="mac">ANYDESK</label>
+                    <input type="text" class="form-control" placeholder="Anydesk do equipamento" id="mac">
                   </div>
                 </div>
               </div>
@@ -210,6 +247,7 @@
 
     
   </div>
+  
     
     
 
