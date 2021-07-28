@@ -8,7 +8,6 @@
 
     <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -28,10 +27,15 @@
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-12 ">
-            <h3>Registro de equipamentos</h3>
+            <h1 class="p-3">Registro de equipamentos</h1>
 
             <p class="mb-4"></p>
             <form action="#" method="post">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3>Informações do usúario</h3>
+                </div>
+              </div>
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group first">
@@ -49,20 +53,44 @@
               <div class="row">
                 
                 <div class="col-md-6">
-                  <div class="form-group first">
+                  <div class=" first">
                     <label for="lname">Usuario</label>
                     <input type="text" class="form-control" placeholder="ex: ferreic" id="lname">
                   </div>    
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="exampleFormControlSelect1">Example select</label>
+                    <label for="exampleFormControlSelect1">Departamento</label>
                     <select class="form-control" id="exampleFormControlSelect1">
-                      <option>1</option>
-                      <option>2</option>
-                      <option>3</option>
-                      <option>4</option>
-                      <option>5</option>
+                      <option value="default" selected="selected">----</option>
+                      <option>ADM PEDIDOS</option>
+                      <option>ADMINISTRATIVO</option>
+                      <option>ALMOXARIFADO</option>
+                      <option>CARPINTARIA</option>
+                      <option>COMPRAS</option>
+                      <option>COMPRAS TUBOS</option>
+                      <option>CONTABIL</option>
+                      <option>CONTAS A PAGAR</option>
+                      <option>CONTAS A RECEBER</option>
+                      <option>CONTROLE QUALIDADE</option>
+                      <option>CONTROLE QUALIDADE</option>
+                      <option>DIRETORIA</option>
+                      <option>FATURAMENTO</option>
+                      <option>FINANCEIRO</option>
+                      <option>FISCAL</option>
+                      <option>FISCAL DE CARGA-G1</option>
+                      <option>INSPEÇÃO</option>
+                      <option>LOGISTICA</option>
+                      <option>PCP-1</option>
+                      <option>PCP-2</option>
+                      <option>PORTARIA 1</option>
+                      <option>PORTARIA-04</option>
+                      <option>QUALIDADE</option>
+                      <option>RH</option>
+                      <option>SEGURANÇA TRABALHO</option>
+                      <option>TELEFONISTA</option>
+                      <option>TI</option>
+                      <option>VENDAS</option>
                     </select>
                   </div>
                 </div>
@@ -70,7 +98,7 @@
 
               <div class="row">
                 <div class="col-md-12">
-                  <label for="email">Equipamento</label>
+                 <h3 class="p-5">Informações do equipamento</h3>
                   </div>
                   </div>
 
@@ -94,11 +122,11 @@
                       <label for="email">Sistema operacional</label>
                       <select class="form-control" name="select" id="tipo_equip">
                       <option value="default" selected="selected">----</option>
+                      <option value="valor2" >WINDOWS XP </option>
+                      <option value="valor2" >WINDOWS 8.1 </option>
+                      <option value="valor2" >WINDOWS SERVER 2012 R1</option>
                       <option value="valor1">WINDOWS 10 PROFISSIONAL</option>
                       <option value="valor1">WINDOWS 10 HOME</option>
-                      <option value="valor2" >WINDOWS SERVER 2012 R1</option>
-                      <option value="valor2" >WINDOWS 8.1 </option>
-                      <option value="valor2" >WINDOWS XP </option>
                       <option value="valor2" >TINY CORE </option>
                      
                     </select>
@@ -131,13 +159,13 @@
                       <select class="form-control" name="select" id="tipo_equip">
                       <option value="default" selected="selected">----</option>
                       <option value="valor1">256 mb</option>
-                      <option value="valor2" >2GB </option>
-                      <option value="valor3">4GB</option>
-                      <option value="valor3">6GB</option>
-                      <option value="valor3">8GB</option>
-                      <option value="valor3">10GB</option>
-                      <option value="valor3">12GB</option>
-                      <option value="valor3">16GB</option>
+                      <option value="valor2" >2  GB </option>
+                      <option value="valor3">4   GB</option>
+                      <option value="valor3">6   GB</option>
+                      <option value="valor3">8   GB</option>
+                      <option value="valor3">10  GB</option>
+                      <option value="valor3">12  GB</option>
+                      <option value="valor3">16  GB</option>
                     </select>
                   </div>    
                 </div>
@@ -164,17 +192,12 @@
                       <option value="valor3">AMD 145</option>
                       <option value="valor3">AMD SEMPRON</option>
                       <option value="valor3">CELERON </option>
-                      <option value="valor1">DUAL CORE 3.00GHZ</option>
-                      <option value="valor3">I3</option>
-                      <option value="valor2" >I5 </option>
-                      <option value="valor3">I20</option>
-
+                      <option value="valor1">DUAL CORE</option>
+                      <option value="valor3">i3</option>
+                      <option value="valor2" >i5 </option>
+                      <option value="valor3">i7</option>
                       <option value="valor3">INTEL ATOM</option>
-
                       <option value="valor3">PENTIUM</option>
-
-
-                      <option value="valor3">CORE 2 DUO</option>
 
                     </select>
                   </div>    
